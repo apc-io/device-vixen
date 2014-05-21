@@ -34,3 +34,6 @@ PRODUCT_MANUFACTURER := WonderMedia
 #no home key
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.moz.has_home_button=0
+
+# Add GAIA flag to support tablet distribution
+GAIA_DEVICE_TYPE := tablet
