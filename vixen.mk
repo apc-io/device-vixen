@@ -31,3 +31,6 @@ PRODUCT_MANUFACTURER := WonderMedia
 #For speedup debug (Temp)
 #PRODUCT_LOCALES := en_US zh_TW zh_CN
 
+#no home key
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.moz.has_home_button=0
