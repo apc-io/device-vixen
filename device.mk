@@ -59,6 +59,10 @@ PRODUCT_PACKAGES += \
 	libswexif         \
 	dhcp6c            
 
+#librecovery
+PRODUCT_PACKAGES += \
+	librecovery
+
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
 
 PRODUCT_COPY_FILES += \
