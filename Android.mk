@@ -77,6 +77,10 @@ WMT_PACKAGES_BUSYBOX := $(shell find device/via/vixen/extra_packages -name "busy
 $(info $(WMT_PACKAGES_BUSYBOX) --> $(TARGET_ROOT_OUT))
 $(shell tar zxf $(WMT_PACKAGES_BUSYBOX) -C $(TARGET_ROOT_OUT))
 
+# install dumpkey.jar
+$(shell mkdir -p out/host/linux-x86/framework)
+$(shell cp device/via/vixen/host/dumpkey.jar out/host/linux-x86/framework)
+$(shell cp device/via/vixen/host/signapk.jar out/host/linux-x86/framework)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
