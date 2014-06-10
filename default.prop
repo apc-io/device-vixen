@@ -289,3 +289,7 @@ persist.sys.hdmi.res=1280x720@60
 #show:mybtname1234
 #if neither ro.bluetooth.fullname nor ro.bluetooth.name is set.show:ro.product.model as bt device name
 #----- bluetooth device name end ----
+
+
+# firmware version
+ro.via.version=140Av100-01
