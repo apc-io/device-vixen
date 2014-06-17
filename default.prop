@@ -292,4 +292,4 @@ persist.sys.hdmi.res=1280x720@60
 
 
 # firmware version
-ro.via.version=140Av100-01
+ro.via.version=140Av100

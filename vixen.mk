@@ -21,7 +21,7 @@ $(call inherit-product, device/via/vixen/device.mk)
 PRODUCT_NAME := vixen
 PRODUCT_DEVICE := vixen
 PRODUCT_BRAND := WonderMedia
-PRODUCT_MODEL := MID
+PRODUCT_MODEL := Rock 8880-A
 PRODUCT_MODEL_UNIQUE_ID := WM8880JBS
 PRODUCT_MANUFACTURER := WonderMedia
 
