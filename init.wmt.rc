@@ -77,6 +77,15 @@ on fs
 
 
 on post-fs
+# insmod for fastboot
+    insmod /system/modules/3.4.5-default/bt_hwctl.ko
+    insmod /system/modules/3.4.5-default/s_wmt_ts_zet6221.ko
+    insmod /system/modules/3.4.5-default/s_wmt_gsensor_mc3230.ko
+    insmod /system/modules/3.4.5-default/s_wmt_batt_vt1603.ko
+    insmod /system/modules/3.4.5-default/usb_wwan.ko
+    insmod /system/modules/3.4.5-default/option.ko
+    insmod /system/modules/3.4.5-default/cdc_acm.ko
+    
 # insmod media video driver module
     insmod /system/modules/3.4.5-default/g_wmt_lock.ko
     insmod /system/modules/3.4.5-default/g_wmt_vd_com.ko

@@ -1,0 +1,30 @@
+ro.wmt.ui.gps=ttyUSB5
+ro.wmt.touchpannel=1
+ro.wmt.drv.common=cdc-acm,usb_wwan,option,s_wmt_batt_vt1603
+ro.product.name=vixen
+ro.product.model=WM-8880-MID
+ro.product.manufacturer=WonderMedia
+ro.product.brand=WonderMedia
+ro.wmt.bootanim.args=10000,480,360,0
+ro.wmt.f7f8=brightness
+ro.wmt.rmtctrl.enable=1
+ro.wmt.hide_systembar=1
+ro.sf.lcd_density=160
+wifi.firmware.path.ap="dummy"
+ril.libpath=/system/lib/libreference-ril.so
+ril.libargs=-d /dev/tty*
+ro.secure=0
+ro.debuggable=1
+ro.wmt.allow.system.3rdapk=1
+persist.sys.hdmi.res=1280x720@60
+ro.wmt.pkgver=4.36.60
+ro.wmt.ui.sys_ver=Ver1.1.6-snapshot
+ro.wmt.bt=bt_hwctl
+wmt.omx.gb.usage=MB
+persist.sys.usb.config=adb
+ro.mouse.sbutton=3
+ro.wmt.ui.settings_remove=gps
+ro.wmt.audio.hardware=MONOMIX=[1,0],USBMIC=[0],AMPCTRL=[0,0,0],HSMICCTRL=[0,0,0]
+wifi.driver.name=8188eu
+wifi.driver.path=/system/modules/3.4.5-default/8188eu.ko
+wifi.driver.arg=ifname=wlan0 if2name=p2p0
