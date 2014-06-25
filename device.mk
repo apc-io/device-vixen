@@ -91,3 +91,5 @@ PRODUCT_COPY_FILES += \
 	device/via/vixen/wifi/bcm_ap6476/fw_bcm40181a2_p2p.bin:/system/etc/firmware/fw_bcm40181a2_p2p.bin \
 	device/via/vixen/wifi/bcm_ap6476/nvram_ap6476.txt:/system/etc/firmware/nvram_ap6476.txt
 	
+PRODUCT_COPY_FILES += \
+    device/via/vixen/volume.cfg:system/etc/volume.cfg
