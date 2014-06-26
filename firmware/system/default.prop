@@ -28,3 +28,5 @@ ro.wmt.audio.hardware=MONOMIX=[1,0],USBMIC=[0],AMPCTRL=[0,0,0],HSMICCTRL=[0,0,0]
 wifi.driver.name=8188eu
 wifi.driver.path=/system/modules/3.4.5-default/8188eu.ko
 wifi.driver.arg=ifname=wlan0 if2name=p2p0
+# firmware version
+ro.via.version=140Av100
