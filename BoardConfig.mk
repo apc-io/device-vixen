@@ -24,4 +24,4 @@ include device/via/common/BoardConfig.mk
 
 #ADDITIONAL_BUILD_PROPERTIES += ro.moz.ril.query_icc_count=true
 
-#GECKO_CONFIGURE_ARGS := --disable-b2g-ril
+GECKO_CONFIGURE_ARGS := --disable-b2g-ril
