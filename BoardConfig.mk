@@ -25,3 +25,6 @@ include device/via/common/BoardConfig.mk
 #ADDITIONAL_BUILD_PROPERTIES += ro.moz.ril.query_icc_count=true
 
 GECKO_CONFIGURE_ARGS := --disable-b2g-ril
+
+# If no set this, system.img can not be used for fastboot.
+BOARD_NAND_PAGE_SIZE := 8192
